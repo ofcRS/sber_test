@@ -9,7 +9,7 @@
     "react-dom": "^17.0.2"
   },
   "scripts": {
-    "dev": "webpack serve --config webpack.config.js"
+    "dev": "webpack serve --config --open webpack.config.js"
   },
   "devDependencies": {
     "@babel/plugin-proposal-optional-chaining": "^7.14.2",
