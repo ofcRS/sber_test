@@ -1,0 +1,19 @@
+.label {
+    display: flex;
+}
+
+.input {
+    padding: 8px;
+    width: 100%;
+
+    border: 1px solid #ffffff;
+    color: #0a81ab;
+}
+
+.input:focus {
+    outline: 1px solid #ffffff;
+}
+
+.error-message {
+    color: #ffffff;
+}

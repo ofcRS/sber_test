@@ -1,0 +1,35 @@
+.auth-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+
+    display: flex;
+    flex-wrap: wrap;
+    color: #ffffff;
+    background: #0a81ab;
+
+    width: 600px;
+    padding: 16px;
+    border: 1px solid #0a81ab;
+    border-radius: 5px;
+
+}
+
+.form label {
+    display: block;
+    width: 100%;
+}
+
+.form label:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.form button {
+    margin-left: auto;
+}
